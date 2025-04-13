@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgate Espacial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>Resgate Espacial</h1>
+        <p class="subtitle">O Enigma dos Planetas Perdidos</p>
+
+        <div class="input-container">
+            <label for="planetInput">Insira as séries de planetas (separadas por vírgula):</label>
+            <input type="text" id="planetInput" placeholder="Ex: abcd,bcf,bcefg">
+        </div>
+        <br>
+        <br>
+
+        <div class="button-container">
+            <button id="findButton" class="button" style="--color:#1e9bff;">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Encontrar
+            </button>
+            <button id="resetButton" class="button" style="--color: #ff1867;">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Reiniciar
+            </button>
+        </div>
+        <br>
+        <br>
+
+        <div class="result-container">
+            <h2>Planetas Encontrados:</h2>
+            <div id="resultOutput"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
